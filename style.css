@@ -1,0 +1,46 @@
+/*@font-face {
+    font-family: ;
+    src: url();
+}*/
+:root{
+    --blam: rgb(229,229,229);
+    --bla: rgb(255,255,255);
+    --vm: rgb(0, 143, 74);
+    --am: rgb(234,193,0);
+    --rm: rgb(231,21,30);
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--bos);
+}
+header {
+    background-color: var(--vm);
+    color: var(--blam);
+    padding: 10px 0;
+    text-align: center;
+}
+nav {
+    background-color: var(--am);
+    color: var(--rm);
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    color: var(--rm);
+    margin: 0 15px;
+    text-decoration: none;
+}
+section {
+    padding: 20px;
+}
+footer {
+    background-color: var(--vm);
+    color: var(--am);
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
